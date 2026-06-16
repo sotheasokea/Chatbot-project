@@ -1,5 +1,6 @@
 import UserIcon from '../assets/users-icon.png'
 import RobotIcon from '../assets/robot-icon.png'
+import './ChatMessage.css'
 
 export function ChatMessage({ message, sender}) {
   return (

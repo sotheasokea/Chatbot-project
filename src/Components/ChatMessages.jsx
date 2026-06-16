@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
 import ChatbotAppLogo from '../assets/ChatBot.png'
 import { ChatMessage } from './ChatMessage';
+import './ChatMessages.css'
 
 export function ChatMessages({chatMessages}){
 
