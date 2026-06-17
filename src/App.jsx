@@ -5,6 +5,7 @@ import { ChatMessage } from './Components/ChatMessage'
 import { ChatMessages } from './Components/ChatMessages'
 import {Chatbot} from 'supersimpledev'
 import './App.css'
+import dayjs from 'dayjs'
 
 function App(){
   const [chatMessages, setChatMessages] = useState([])
@@ -12,7 +13,7 @@ function App(){
     Chatbot.addResponses({
       "what time is it": function(){
           return (
-            `It is ${new Date().toLocaleDateString()}`
+            `It is ${dayjs().format('HH:mm A')}`
           );
       }, 
       "my name": "Nice to meet you!",
