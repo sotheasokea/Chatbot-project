@@ -13,7 +13,7 @@
 
 .chat-message-text{
   background-color: rgb(238, 238, 238);
-  padding: 15px 20px;
+  padding: 10px 15px;
   border-radius: 10px;
   margin-right: 10px;
   margin-left: 10px;
@@ -31,4 +31,10 @@
   overflow: scroll;
   scrollbar-width: none;
   
+}
+.time-send-message{
+  font-size: 50%;
+  color: gray;
+  text-align: start;
+  margin: 0;
 }

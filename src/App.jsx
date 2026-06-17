@@ -21,12 +21,12 @@ function App(){
       "what do you like": "I like helping people and answering questions!",
       "what is your favorite anime?": "One piece🤩",
       "what anime do you like": "One piece 🤩",
+      "favorite anime": "One piece 🤩",
       "who build you?": "I was built by SuperSimpleDev, with additional features and design by Mr. Sothea",
       "who made you": "I was built by SuperSimpleDev, with additional features and design by Mr. Sothea",
       "who created you?": "I was built by SuperSimpleDev, with additional features and design by Mr. Sothea",
       "who are you?": "I am a chatbot built by SuperSimpleDev, with additional features and design by Mr. Sothea",
       "favorite anime character": "Monkey D. Luffy",
-      "favorite anime": "One piece 🤩",
       "How to learn to build the chatbot like you": "Learn how to build me at SuperSimpleDev's YouTube channel!",
       "how to build you": "Learn how to build me at SuperSimpleDev's YouTube channel!",
       "how old are you": function(){
